@@ -1,0 +1,48 @@
+body{
+  margin:0;
+  padding:0;
+  height:3000px;
+}
+.first{
+  height:100vh;
+  background-image: url("2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.second{
+  height:100vh;
+  font-family: fantasy;
+  font-size: 50px;
+  text-align: center;
+}
+
+.third{
+  height:100vh;
+  background-image: url("367-1-01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fourth{
+  height:100vh;
+  background-image: url("3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fifth{
+  height:100vh;
+  font-family: fantasy;
+  font-size: 50px;
+  text-align: center;
+}
+
+@media (max-width:500px) {
+  .second{
+    font-size: 25px;
+    }
+}
